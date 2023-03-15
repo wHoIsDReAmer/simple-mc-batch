@@ -102,7 +102,7 @@ for /f %%f in ('dir /b bukkits') do (
 
 set /p server=""
 
-if not defined !%server%_bkt! (
+if not defined %server%_bkt (
     call :ColorText %cfg% "              [ There are not server ]"
     echo.
     call :ColorText %cfg% "                 Press any key.."
@@ -223,7 +223,6 @@ echo.
 echo.
 set /p cc=""
 echo %cc% > configs/color.cfg
-echo 설정 완료!
 goto home
 
 :about
