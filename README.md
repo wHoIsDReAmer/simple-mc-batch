@@ -1,5 +1,5 @@
 # Utility Minecraft Bukkit
-``Screenshots``
+```Screenshots```
 
 ![](https://github.com/wHoIsDReAmer/utility_batch_bukkit/blob/main/screenshot/screenshot.png?raw=true)
 
